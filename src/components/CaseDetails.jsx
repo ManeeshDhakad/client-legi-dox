@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import {getIndianStateList, getDocumentList} from '../utils/Utils.jsx';
 import  '../styles/CaseDetails.css';
-import ReactAutoSuggest from '../Utils/ReactAutoSuggest.jsx';
+import ReactAutoSuggest from '../utils/ReactAutoSuggest.jsx';
 import axios from 'axios';
 const config = require('../config/config.jsx');
 
