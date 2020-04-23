@@ -4,7 +4,7 @@
   "description": "React application",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --http --port 8080 --env=dev",
     "test": "echo \"Error: no test speficied\" && exit1",
     "build:dev": "babel-node ./node_modules/webpack/bin/webpack --env=dev",
     "build:test": "babel-node ./node_modules/webpack/bin/webpack --env=test",
