@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --env=dev",
-    "build": "webpack --env=prod"
+    "start:local": "webpack-dev-server --env=local",
+    "start:dev": "webpack-dev-server --env=dev",
+    "start:prod": "webpack-dev-server --env=prod",
+    "start:test": "webpack-dev-server --env=test",
+    "build:local": "webpack --env=local",
+    "build:dev": "webpack --env=dev",
+    "build:prod": "webpack --env=prod",
+    "build:test": "webpack --env=test",
+    "build": "webpack"
   },
   "author": "Maneesh",
   "license": "",
@@ -16,6 +24,7 @@
     "axios": "^0.18.0",
     "copy-webpack-plugin": "^4.6.0",
     "file-saver": "^2.0.0",
+    "json-loader": "^0.5.7",
     "jsonexport": "^2.4.1",
     "query-string": "^6.2.0",
     "react": "^16.13.0",
@@ -23,7 +32,8 @@
     "react-data-export": "^0.5.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^4.3.1",
-    "xlsx": "^0.14.4"
+    "xlsx": "^0.14.4",
+    "aws-sdk": "^2.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

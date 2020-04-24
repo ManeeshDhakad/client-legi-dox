@@ -38,6 +38,10 @@ module.exports = env => {
         {
           test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
           loaders: ['file-loader']
+        },
+        {
+          test: /\.json$/, 
+          loaders: ['json']
         }
 
          

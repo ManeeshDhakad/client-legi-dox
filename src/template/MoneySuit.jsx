@@ -84,6 +84,11 @@ class MoneySuit extends Component {
                 </tr>
             </thead>
             <tbody>
+                {this.state.factsTextBox && this.state.factsTextBox.length == 0 &&  this.state.factsDropDown && this.state.factsDropDown.length == 0 && 
+                    <tr>
+                        <td colSpan="2">Facts not available</td>
+                    </tr>
+                }
                 {this.state.factsTextBox.map((fact, index) => 
                     <tr>
                         <td key={'textBoxLabel' + index} className="bg-primary">{fact.name}</td>
