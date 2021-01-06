@@ -21,7 +21,7 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^18.0.0",
     "@ckeditor/ckeditor5-react": "^2.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "copy-webpack-plugin": "^4.6.0",
     "file-saver": "^2.0.0",
     "json-loader": "^0.5.7",
